@@ -14,6 +14,16 @@
 		B31A4DF41AA74153001D56B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B31A4DF31AA74153001D56B7 /* Images.xcassets */; };
 		B31A4DF71AA74153001D56B7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B31A4DF51AA74153001D56B7 /* LaunchScreen.xib */; };
 		B31A4E031AA74153001D56B7 /* SampleProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B31A4E021AA74153001D56B7 /* SampleProjectTests.m */; };
+		B31A4E141AA747F6001D56B7 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B31A4E121AA747F6001D56B7 /* CustomCell.m */; };
+		B31A4E151AA747F6001D56B7 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B31A4E131AA747F6001D56B7 /* CustomCell.xib */; };
+		B31A4E1A1AA74A23001D56B7 /* NSStringSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B31A4E181AA74A23001D56B7 /* NSStringSampleViewController.m */; };
+		B31A4E1B1AA74A23001D56B7 /* NSStringSampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B31A4E191AA74A23001D56B7 /* NSStringSampleViewController.xib */; };
+		B31A4E1F1AA74A4C001D56B7 /* NSArraySampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B31A4E1D1AA74A4C001D56B7 /* NSArraySampleViewController.m */; };
+		B31A4E201AA74A4C001D56B7 /* NSArraySampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B31A4E1E1AA74A4C001D56B7 /* NSArraySampleViewController.xib */; };
+		B31A4E241AA74A76001D56B7 /* NSDictionSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B31A4E221AA74A76001D56B7 /* NSDictionSampleViewController.m */; };
+		B31A4E251AA74A76001D56B7 /* NSDictionSampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B31A4E231AA74A76001D56B7 /* NSDictionSampleViewController.xib */; };
+		B31A4E291AA74A83001D56B7 /* NSNumberSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B31A4E271AA74A83001D56B7 /* NSNumberSampleViewController.m */; };
+		B31A4E2A1AA74A83001D56B7 /* NSNumberSampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B31A4E281AA74A83001D56B7 /* NSNumberSampleViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +50,21 @@
 		B31A4DFC1AA74153001D56B7 /* SampleProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B31A4E011AA74153001D56B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B31A4E021AA74153001D56B7 /* SampleProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleProjectTests.m; sourceTree = "<group>"; };
+		B31A4E111AA747F6001D56B7 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		B31A4E121AA747F6001D56B7 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		B31A4E131AA747F6001D56B7 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		B31A4E171AA74A23001D56B7 /* NSStringSampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringSampleViewController.h; sourceTree = "<group>"; };
+		B31A4E181AA74A23001D56B7 /* NSStringSampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringSampleViewController.m; sourceTree = "<group>"; };
+		B31A4E191AA74A23001D56B7 /* NSStringSampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSStringSampleViewController.xib; sourceTree = "<group>"; };
+		B31A4E1C1AA74A4C001D56B7 /* NSArraySampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSArraySampleViewController.h; sourceTree = "<group>"; };
+		B31A4E1D1AA74A4C001D56B7 /* NSArraySampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArraySampleViewController.m; sourceTree = "<group>"; };
+		B31A4E1E1AA74A4C001D56B7 /* NSArraySampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSArraySampleViewController.xib; sourceTree = "<group>"; };
+		B31A4E211AA74A76001D56B7 /* NSDictionSampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionSampleViewController.h; sourceTree = "<group>"; };
+		B31A4E221AA74A76001D56B7 /* NSDictionSampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionSampleViewController.m; sourceTree = "<group>"; };
+		B31A4E231AA74A76001D56B7 /* NSDictionSampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSDictionSampleViewController.xib; sourceTree = "<group>"; };
+		B31A4E261AA74A83001D56B7 /* NSNumberSampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSNumberSampleViewController.h; sourceTree = "<group>"; };
+		B31A4E271AA74A83001D56B7 /* NSNumberSampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSNumberSampleViewController.m; sourceTree = "<group>"; };
+		B31A4E281AA74A83001D56B7 /* NSNumberSampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSNumberSampleViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +106,10 @@
 		B31A4DE51AA74153001D56B7 /* SampleProject */ = {
 			isa = PBXGroup;
 			children = (
+				B31A4E161AA749DF001D56B7 /* View Controller */,
+				B31A4E111AA747F6001D56B7 /* CustomCell.h */,
+				B31A4E121AA747F6001D56B7 /* CustomCell.m */,
+				B31A4E131AA747F6001D56B7 /* CustomCell.xib */,
 				B31A4DEA1AA74153001D56B7 /* AppDelegate.h */,
 				B31A4DEB1AA74153001D56B7 /* AppDelegate.m */,
 				B31A4DED1AA74153001D56B7 /* ViewController.h */,
@@ -117,6 +146,25 @@
 				B31A4E011AA74153001D56B7 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B31A4E161AA749DF001D56B7 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B31A4E171AA74A23001D56B7 /* NSStringSampleViewController.h */,
+				B31A4E181AA74A23001D56B7 /* NSStringSampleViewController.m */,
+				B31A4E191AA74A23001D56B7 /* NSStringSampleViewController.xib */,
+				B31A4E1C1AA74A4C001D56B7 /* NSArraySampleViewController.h */,
+				B31A4E1D1AA74A4C001D56B7 /* NSArraySampleViewController.m */,
+				B31A4E1E1AA74A4C001D56B7 /* NSArraySampleViewController.xib */,
+				B31A4E211AA74A76001D56B7 /* NSDictionSampleViewController.h */,
+				B31A4E221AA74A76001D56B7 /* NSDictionSampleViewController.m */,
+				B31A4E231AA74A76001D56B7 /* NSDictionSampleViewController.xib */,
+				B31A4E261AA74A83001D56B7 /* NSNumberSampleViewController.h */,
+				B31A4E271AA74A83001D56B7 /* NSNumberSampleViewController.m */,
+				B31A4E281AA74A83001D56B7 /* NSNumberSampleViewController.xib */,
+			);
+			name = "View Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +247,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B31A4E2A1AA74A83001D56B7 /* NSNumberSampleViewController.xib in Resources */,
+				B31A4E251AA74A76001D56B7 /* NSDictionSampleViewController.xib in Resources */,
 				B31A4DF21AA74153001D56B7 /* Main.storyboard in Resources */,
+				B31A4E1B1AA74A23001D56B7 /* NSStringSampleViewController.xib in Resources */,
 				B31A4DF71AA74153001D56B7 /* LaunchScreen.xib in Resources */,
+				B31A4E201AA74A4C001D56B7 /* NSArraySampleViewController.xib in Resources */,
+				B31A4E151AA747F6001D56B7 /* CustomCell.xib in Resources */,
 				B31A4DF41AA74153001D56B7 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,7 +273,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B31A4DEF1AA74153001D56B7 /* ViewController.m in Sources */,
+				B31A4E1F1AA74A4C001D56B7 /* NSArraySampleViewController.m in Sources */,
 				B31A4DEC1AA74153001D56B7 /* AppDelegate.m in Sources */,
+				B31A4E141AA747F6001D56B7 /* CustomCell.m in Sources */,
+				B31A4E291AA74A83001D56B7 /* NSNumberSampleViewController.m in Sources */,
+				B31A4E1A1AA74A23001D56B7 /* NSStringSampleViewController.m in Sources */,
+				B31A4E241AA74A76001D56B7 /* NSDictionSampleViewController.m in Sources */,
 				B31A4DE91AA74153001D56B7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
