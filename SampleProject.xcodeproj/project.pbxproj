@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B30669CF1AC24EBA006B6D33 /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = B30669CE1AC24EBA006B6D33 /* Data.m */; };
+		B30669D31AC251E6006B6D33 /* NSPredicateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B30669D11AC251E6006B6D33 /* NSPredicateViewController.m */; };
+		B30669D41AC251E6006B6D33 /* NSPredicateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B30669D21AC251E6006B6D33 /* NSPredicateViewController.xib */; };
 		B31A4DE91AA74153001D56B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B31A4DE81AA74153001D56B7 /* main.m */; };
 		B31A4DEC1AA74153001D56B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B31A4DEB1AA74153001D56B7 /* AppDelegate.m */; };
 		B31A4DEF1AA74153001D56B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B31A4DEE1AA74153001D56B7 /* ViewController.m */; };
@@ -37,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B30669CD1AC24EBA006B6D33 /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
+		B30669CE1AC24EBA006B6D33 /* Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Data.m; sourceTree = "<group>"; };
+		B30669D01AC251E6006B6D33 /* NSPredicateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSPredicateViewController.h; sourceTree = "<group>"; };
+		B30669D11AC251E6006B6D33 /* NSPredicateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSPredicateViewController.m; sourceTree = "<group>"; };
+		B30669D21AC251E6006B6D33 /* NSPredicateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSPredicateViewController.xib; sourceTree = "<group>"; };
 		B31A4DE31AA74153001D56B7 /* SampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B31A4DE71AA74153001D56B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B31A4DE81AA74153001D56B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -85,6 +93,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B30669CC1AC24E9E006B6D33 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B30669CD1AC24EBA006B6D33 /* Data.h */,
+				B30669CE1AC24EBA006B6D33 /* Data.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		B31A4DDA1AA74153001D56B7 = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +123,7 @@
 		B31A4DE51AA74153001D56B7 /* SampleProject */ = {
 			isa = PBXGroup;
 			children = (
+				B30669CC1AC24E9E006B6D33 /* Model */,
 				B31A4E161AA749DF001D56B7 /* View Controller */,
 				B31A4E111AA747F6001D56B7 /* CustomCell.h */,
 				B31A4E121AA747F6001D56B7 /* CustomCell.m */,
@@ -163,6 +181,9 @@
 				B31A4E261AA74A83001D56B7 /* NSNumberSampleViewController.h */,
 				B31A4E271AA74A83001D56B7 /* NSNumberSampleViewController.m */,
 				B31A4E281AA74A83001D56B7 /* NSNumberSampleViewController.xib */,
+				B30669D01AC251E6006B6D33 /* NSPredicateViewController.h */,
+				B30669D11AC251E6006B6D33 /* NSPredicateViewController.m */,
+				B30669D21AC251E6006B6D33 /* NSPredicateViewController.xib */,
 			);
 			name = "View Controller";
 			sourceTree = "<group>";
@@ -251,6 +272,7 @@
 				B31A4E251AA74A76001D56B7 /* NSDictionSampleViewController.xib in Resources */,
 				B31A4DF21AA74153001D56B7 /* Main.storyboard in Resources */,
 				B31A4E1B1AA74A23001D56B7 /* NSStringSampleViewController.xib in Resources */,
+				B30669D41AC251E6006B6D33 /* NSPredicateViewController.xib in Resources */,
 				B31A4DF71AA74153001D56B7 /* LaunchScreen.xib in Resources */,
 				B31A4E201AA74A4C001D56B7 /* NSArraySampleViewController.xib in Resources */,
 				B31A4E151AA747F6001D56B7 /* CustomCell.xib in Resources */,
@@ -272,11 +294,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B30669D31AC251E6006B6D33 /* NSPredicateViewController.m in Sources */,
 				B31A4DEF1AA74153001D56B7 /* ViewController.m in Sources */,
 				B31A4E1F1AA74A4C001D56B7 /* NSArraySampleViewController.m in Sources */,
 				B31A4DEC1AA74153001D56B7 /* AppDelegate.m in Sources */,
 				B31A4E141AA747F6001D56B7 /* CustomCell.m in Sources */,
 				B31A4E291AA74A83001D56B7 /* NSNumberSampleViewController.m in Sources */,
+				B30669CF1AC24EBA006B6D33 /* Data.m in Sources */,
 				B31A4E1A1AA74A23001D56B7 /* NSStringSampleViewController.m in Sources */,
 				B31A4E241AA74A76001D56B7 /* NSDictionSampleViewController.m in Sources */,
 				B31A4DE91AA74153001D56B7 /* main.m in Sources */,
@@ -470,6 +494,7 @@
 				B31A4E081AA74153001D56B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B31A4E091AA74153001D56B7 /* Build configuration list for PBXNativeTarget "SampleProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +503,7 @@
 				B31A4E0B1AA74153001D56B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

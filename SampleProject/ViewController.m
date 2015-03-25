@@ -13,6 +13,7 @@
 #import "NSArraySampleViewController.h"
 #import "NSDictionSampleViewController.h"
 #import "NSNumberSampleViewController.h"
+#import "NSPredicateViewController.h"
 
 #define reuseCellIdentifier @"reuseCellIdentifier"
 
@@ -32,7 +33,7 @@
         //舊的方式
         //_items = [NSArray arrayWithObjects:@"NSString", @"NSArray", @"NSDictionary", @"NSNumber", nil];
         //新的方式
-        _items = @[@"NSString", @"NSNumber", @"NSArray", @"NSDictionary"];
+        _items = @[@"NSString", @"NSNumber", @"NSArray", @"NSDictionary", @"NSPredicate"];
     }
     return _items;
 }
@@ -41,7 +42,7 @@
 {
     if (!_subtitles)
     {
-        _subtitles = @[@"字串", @"一般陣列", @"一個像HashMap的東西", @"數字"];
+        _subtitles = @[@"字串", @"一般陣列", @"一個像HashMap的東西", @"數字", @"陣列中或資料中篩選條件使用"];
     }
     return _subtitles;
 }
@@ -121,6 +122,10 @@
     else if ([selectedString isEqualToString:@"NSNumber"])
     {
         vc = [[NSNumberSampleViewController alloc] initWithNibName:@"NSNumberSampleViewController" bundle:nil];
+    }
+    else if ([selectedString isEqualToString:@"NSPredicate"])
+    {
+        vc = [[NSPredicateViewController alloc] initWithNibName:@"NSPredicateViewController" bundle:nil];
     }
     [self.navigationController pushViewController:vc animated:YES];
 }
